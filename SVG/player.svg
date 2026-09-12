@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 160">
+<title>Princess and kirin, top-down player</title>
+<!-- Facing up. Crown center (64,73); ring centerline radius 8. -->
+<!-- Tail and hair are independent animation layers. -->
+<g id="tail">
+ <path fill="#e8dab8" d="M59 118Q70 134 59 145L63 153Q81 137 68 117Z"/>
+ <path fill="#8eac77" stroke="#42564b" stroke-width="1.5" d="M61 137Q50 142 52 155L58 150L56 159Q68 157 73 149L73 155Q81 142 67 134Z"/>
+ <path fill="none" stroke="#c4d3a2" d="M66 140Q65 150 60 154"/>
+</g>
+<!-- Paired legs and cloven hooves -->
+<g fill="#e8dab8" stroke="#6c705b" stroke-width="1.5" stroke-linejoin="round">
+ <path d="M46 68Q36 74 35 88L32 100L39 103L47 89L53 77M82 68Q92 74 93 88L96 100L89 103L81 89L75 77"/>
+ <path d="M47 104L40 126L43 140L51 139L54 123L59 111M81 104L88 126L85 140L77 139L74 123L69 111"/>
+</g>
+<g fill="#5a6260"><path d="M32 97L40 100L38 107L30 104ZM96 97L88 100L90 107L98 104ZM42 133L51 133L51 141L43 142ZM86 133L77 133L77 141L85 142Z"/></g>
+<!-- Body, neck, and head -->
+<path fill="#f6ebcf" stroke="#6c705b" stroke-width="1.5" d="M53 47Q43 61 43 86Q35 108 47 121Q64 131 81 121Q93 108 85 86Q85 61 75 47Z"/>
+<path fill="#e8dab8" d="M77 60Q78 86 83 101Q88 119 66 123Q91 130 86 102L80 75Z"/>
+<path fill="#8eac77" d="M56 45L50 59L54 57L48 71L54 68L50 82L59 76L64 92L69 76L78 82L74 68L80 71L74 57L78 59L72 45Z"/>
+<g fill="#f6ebcf" stroke="#6c705b" stroke-width="1.5" stroke-linejoin="round">
+ <path d="M54 49Q40 47 39 32Q51 33 58 43M74 49Q88 47 89 32Q77 33 70 43"/>
+ <path d="M57 17Q64 14 71 17L74 29Q82 39 78 49Q75 57 64 58Q53 57 50 49Q46 39 54 29Z"/>
+</g>
+<!-- Dorsal view: narrow muzzle leads; ears, poll, and mane trail behind. -->
+<path fill="#c9ba96" d="M43 37L52 45L47 44ZM85 37L76 45L81 44Z"/>
+<path fill="#e8dab8" d="M71 20L72 30Q80 40 75 48L70 53Q82 50 78 39L74 29Z"/>
+<path fill="none" stroke="#b7a77d" d="M58 23Q64 21 70 23"/>
+<path fill="#8eac77" d="M54 45L58 47L55 36L60 39L60 33L64 36L68 33L68 39L73 36L70 47L75 44L73 51L78 51L73 60L69 57L66 68L61 61L56 65L57 56L51 59Z"/>
+<path fill="#ede1ba" stroke="#a79159" stroke-width="1" stroke-linejoin="round" d="M64 3L59 38Q64 42 69 38Z"/>
+<path fill="none" stroke="#b19a64" d="M62 20L66 23M61 29L67 32"/>
+<!-- Gown and sleeves: teal silhouette remains visible around dark hair. -->
+<path fill="#72bdb5" stroke="#386c67" stroke-width="1.5" stroke-linejoin="round" d="M54 72Q46 69 42 79L37 90L44 93L47 86Q45 103 38 118Q47 125 55 121Q64 130 73 121Q81 125 90 118Q83 103 81 86L84 93L91 90L86 79Q82 69 74 72Z"/>
+<path fill="#a7d6c8" d="M45 98L41 117L47 119L52 96ZM83 98L87 117L81 119L76 96Z"/>
+<path fill="#ffdbb9" stroke="#a98c71" stroke-width="1" d="M42 79L46 68Q49 65 51 69L48 82ZM86 79L82 68Q79 65 77 69L80 82Z"/>
+<path fill="none" stroke="#496e56" stroke-width="1.5" d="M48 69L55 54M80 69L73 54"/>
+<!-- Hair trails away from the fixed head and crown. -->
+<g id="hair">
+ <path fill="#3e302c" stroke="#29292a" stroke-width="1.5" stroke-linejoin="round" d="M54 77Q49 89 53 100Q55 111 48 120Q59 118 61 109Q65 123 59 134Q73 129 73 115L79 123Q84 109 76 94L74 77Z"/>
+ <path fill="none" stroke="#77554a" stroke-width="1.5" stroke-linecap="round" d="M57 89Q55 101 58 107M68 88Q74 110 67 121"/>
+</g>
+<path fill="#3e302c" stroke="#29292a" stroke-width="1.5" d="M52 75Q49 61 59 59Q73 55 77 67Q81 81 71 87Q57 90 52 75Z"/>
+<path fill="none" stroke="#77554a" stroke-width="1.5" stroke-linecap="round" d="M54 69Q55 61 61 62M73 78L75 72"/>
+<!-- The circular crown is fixed: suitable for a separate circular collider. -->
+<circle cx="64" cy="73" r="8" fill="none" stroke="#302e27" stroke-width="5"/>
+<circle cx="64" cy="73" r="8" fill="none" stroke="#e8bf55" stroke-width="3"/>
+<circle cx="64" cy="73" r="6.5" fill="none" stroke="#fff0b1" stroke-width="1"/>
+<g fill="#fff0b1"><circle cx="64" cy="65" r="1.5"/><circle cx="72" cy="73" r="1.5"/><circle cx="64" cy="81" r="1.5"/><circle cx="56" cy="73" r="1.5"/></g>
+</svg>
